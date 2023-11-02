@@ -20,6 +20,8 @@ resources:
     type: dns
   andrew:
     type: mysql
+  cachy:
+    type: redis
   route:
     type: route
     params:

@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "hintbw-test"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-33"
+    "humanitec.com/appId": "hintbw-test"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
